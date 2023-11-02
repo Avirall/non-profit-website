@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Donation</title>
+</head>
+
+<body>
+    <header>
+        <div id="site-name-d">
+            The Green Trees Initiative
+        </div>
+    </header>
+    <main class="form">
+        <div class="form-heading">Give HOPE to those Who need It most</div>
+        <div class="form-content">
+            <h1>Your information</h1>
+            <form>
+                <label>FIRST NAME</label>
+                <label>LAST NAME</label>
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+                <label id="street-address"> STREET ADDRESS</label>
+                <input type="address" placeholder="Street address" id="street-address">
+                <label>CITY</label>
+                <div id="state-zip"><label>STATE</label>
+                    <label>ZIP CODE</label>
+                </div>
+                <input type="city" placeholder="city">
+                <div id="state-zip">
+
+                    <select id="state" name="state">
+                        <option value="AL">Alabama</option>
+                        <option value="AK">Alaska</option>
+                        <option value="AZ">Arizona</option>
+                    </select>
+
+                    <input type="number" placeholder="zip">
+                </div>
+                <label id="email-add">EMAIL ADDRESS</label>
+                <input type="email" id="email-add">
+                <h1>Payment information</h1>
+                <label id="ccn">CREDIT CARD NUMBER</label>
+                <input type="number" maxlength="16" placeholder="Credit card number" id="ccn">
+                <label>EXPIRATION DATE</label>
+                <label>SECURITY CODE</label>
+                <div id="month-year">
+                    <input type="month" placeholder="MM">
+                    <input type="year" placeholder="YYYY">
+                </div>
+                <input type="number" maxlength="3" placeholder="CVC">
+            </form>
+            <h2>Click the button to confirm your donation of $10, recurring monthly.</h2>
+            <div class="confirmation"><div class="page-button payment"><button class="donate">Process Payment</button></div>
+            <p><a href="#">Go back</a></p></div>
+        </div>
+    </main>
+    <footer>
+        <div id="site-name">
+            The Green Trees Initiative
+        </div>
+        <div id="l1">CONTACT US <br> <br>
+            123 Anywhere St. Cityname, NY 11206 (123) 456-7890 contact@npo.org</div>
+        <div id="l2">FOLLOW US> <br> <br>
+            <ul>
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://www.twitter.com">Twitter</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://www.medium.com">Medium</a></li>
+            </ul>
+        </div>
+        <div id="learn">LEARN MORE <br> <br>
+            <ul>
+                <li><a href="#the-issue">The issue</a></li>
+                <li><a href="#how-we-help">How we help</a></li>
+                <li><a href="#get-involved">Get involved</a></li>
+                <li><a href="#latest-news">Latest news</a></li>
+            </ul>
+        </div>
+        <div id="stop-change">#stop climate change</div>
+    </footer>
+</body>
+
+</html>
