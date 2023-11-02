@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #354463;
+    opacity: 1;
+}
+
+/* designing header */
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 6vh;
+    margin: 6vh 13vh;
+}
+
+header div {
+    text-align: left;
+    font: normal normal bold 2.75vh/4vh Helvetica;
+    padding-right: 5vw;
+}
+
+header ul {
+    list-style-type: none;
+    text-align: left;
+    font: normal normal 300 2vh/4vh Helvetica;
+    letter-spacing: -0.14px;
+}
+
+
+header a {
+    text-decoration: none;
+}
+
+.page-button {
+    grid-column: 1/3;
+}
+
+.donate {
+    width: 100%;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    border: none;
+    font: normal normal bold 2.75vh/4vh Helvetica;
+    opacity: 1;
+}
+
+/* stop-climate-change section */
+.stop-climate-change {
+    height: 100vh;
+    background-image: url(/assets/assets/about-us/annie-spratt-427339-unsplash@2x.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.hashtag {
+    height: 50%;
+}
+
+.hashtag img {
+    height: 50%;
+    width: 40%;
+    margin: 10%;
+}
+
+.content {
+    margin: 10%;
+    background-color: white;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: bolder;
+    padding: 10%;
+}
+
+.content-heading {
+    position: absolute;
+    top: 0%;
+    /* Move the top of the inner div to the vertical center of the outer div */
+    left: 50%;
+    /* Move the left of the inner div to the horizontal center of the outer div */
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: normal;
+    font-size: 3vh;
+    padding: auto;
+    margin: 0;
+    background: #354463 0% 0% no-repeat padding-box;
+    padding: 2% 10%;
+    opacity: 1;
+}
+.mission{
+    height: 120vh;
+    position: relative;
+    background: #354463 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.values-heading{
+    width:10em;
+    background-color: white;
+    color: #354463;
+    margin: auto;
+    font-size: 1em;
+    text-align: center;
+    padding: 2%;
+}
+
+.missions{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8%;
+}
+.missions div p{
+    color: white;
+}
+.values-desc{
+    color: white;
+    text-align: center;
+    margin: 10% 0;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+/* media query tablets */
+
+@media(min-width: 768px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header div {
+        grid-column: 1/2;
+    }
+
+    header ul {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        display: flex;
+        justify-content: space-between;
+        width: 40vw;
+    }
+
+    header .page-button {
+        grid-column: 4/5;
+    }
+
+    header ul li {
+        padding: 0;
+    }
+
+    .donate {
+        height: 8vh;
+        width: 13.5vw;
+    }
+    .stop-climate-change{
+        height: 50%;
+    }
+    .hashtag img {
+        height: 50%;
+        width: 25%;
+        margin: 10%;
+    }
+    .content-heading {
+        position: absolute;
+        position: absolute;
+        top: 0%;
+        /* Move the top of the inner div to the vertical center of the outer div */
+        left: 30%;
+        /* Move the left of the inner div to the horizontal center of the outer div */
+        transform: translate(-50%, -50%);
+        color: white;
+        font-weight: normal;
+        font-size: 3vh;
+        padding: auto;
+        margin: 0;
+        background: #354463 0% 0% no-repeat padding-box;
+        padding: 2% 10%;
+        opacity: 1;
+    }
+    .missions{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 8%;
+    }
+    .mission{
+        height: 90vh;
+    }
+
+}
+
+/* media-query for desktops */
+@media(min-width: 1024px) {
+    header {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    header div {
+        grid-column: 1/2;
+    }
+
+    header ul {
+        grid-column: 2/4;
+        grid-row: 1;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    header ul li {
+        text-align: right;
+    }
+
+    header .page-button {
+        grid-column: 4/5;
+    }
+
+    .donate {
+
+        height: 9vh;
+        width: 9vw;
+    }
+    .stop-climate-change {
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left:5%;
+    }
+    .hashtag{
+        width: 50%;
+    }
+    .hashtag img{
+        width: 80%;
+        height: auto;
+        
+    }
+    .content{
+        width: 50%;
+        position: relative;
+        top: 30vh;
+        z-index: 1;
+    }
+    .missions{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 8%;
+    }
+    .mission{
+        height: 78vh;
+    }
+    .values-heading{
+        width:10em;
+        background-color: white;
+        color: #354463;
+        margin: 0 0;
+        font-size: 1em;
+        text-align: center;
+        padding: 2%;
+    }
+}
