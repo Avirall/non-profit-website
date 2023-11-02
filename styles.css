@@ -52,13 +52,87 @@ header a {
     font: normal normal bold 2.75vh/4vh Helvetica;
     opacity: 1;
 }
+.take-action{
+    height: 50vh;
+    background-color: #C1F7D5;
+    padding:15% 10%;
+}
 
+.action-names{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5%;
+}
+.action2{
+    position: relative;
+    top: -23%;
+    /* Move the top of the inner div to the vertical center of the outer div */
+    left: 50%;
+    /* Move the left of the inner div to the horizontal center of the outer div */
+    transform: translate(-50%, -50%);
+    width: 25vw;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 3vh;
+    padding: auto;
+    margin: 0;
+    background: #354463 0% 0% no-repeat padding-box;
+    padding: 2% 9%;
+    opacity: 1;
+}
+.tabs1{
+    font-weight: bold;
+    font-size: 4vh;
+}
+
+.task{
+    padding: 10%;
+}
+#do{
+    width: 30vw;
+    padding: 2%;
+    text-align: center;
+}
+#slo{
+    padding: 0;
+    font-size: 4vh;
+    margin-top: 15%;
+    height: 40vh;
+}
+#achieve{
+    position: relative;
+    top: -20%;
+    padding: 8%;
+    padding-bottom: 0;
+}
+#achievements{
+    height: 310vh;
+}
+#hunger{
+    background-image: url(/assets/assets/home/did-you-know-background@3x.png);
+    background-position: center;
+    height: 250vh;
+}
+#hunger-desc{
+    text-align: left;
+    padding-right: 20%;
+    height: 20vh;
+}
 /* stop-climate-change section */
 .stop-climate-change {
     height: 100vh;
     background-image: url(/assets/assets/about-us/annie-spratt-427339-unsplash@2x.png);
     background-size: cover;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.stop-climate-change-home {
+    height: 110vh;
+    background-image: url(/assets/assets/home/annie-spratt-135307-unsplash@3x.png);
+    background-size: cover;
+    background-position: right;
     display: flex;
     flex-direction: column;
 }
