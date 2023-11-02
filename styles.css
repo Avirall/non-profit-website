@@ -119,6 +119,56 @@ header a {
     padding-right: 20%;
     height: 20vh;
 }
+.stories{
+    padding: 10%;
+}
+.story-desc{
+    margin: 10% 0;
+    height: 50vh;
+    padding: 10%;
+    font-size: 4vh;
+    text-align: center;
+    background-color: #354463;
+    color: white;
+}
+.story-desc p{
+    margin: 10% 0;
+    padding: 10%;
+    font-size: 2vh;
+    text-align: center;
+    color: white;
+}
+#read-more {
+    display: flex;
+   justify-content: center;
+}
+#read-more button{
+    width: 50%;
+}
+.talk{
+    height: 230vh;
+    padding: 10%;
+    text-align: center;
+    background-color: #354463;
+    color: white;
+}
+#talk-head{
+    color: #FFFFFF;
+    padding: 10%;
+    font-size: 7vh;
+}
+.talk div{
+    text-align: center;
+    font-size: 4vh;
+    color: white;
+    padding: 5%;
+}
+
+.talk div p{
+    color: #FFFFFF;
+    font-size: 2.5vh;
+    padding: 5% 0 0 0;
+}
 /* stop-climate-change section */
 .stop-climate-change {
     height: 100vh;
