@@ -13,7 +13,7 @@ header {
     margin: 6vh 13vh;
 }
 
-header div {
+#site-name {
     text-align: left;
     font: normal normal bold 2.75vh/4vh Helvetica;
     padding-right: 5vw;
@@ -91,8 +91,9 @@ header a {
     padding: 2% 10%;
     opacity: 1;
 }
-.mission{
-    height: 120vh;
+
+.mission {
+    height: 170vh;
     position: relative;
     background: #354463 0% 0% no-repeat padding-box;
     display: flex;
@@ -100,8 +101,8 @@ header a {
     padding: 10%;
 }
 
-.values-heading{
-    width:10em;
+.values-heading {
+    width: 10em;
     background-color: white;
     color: #354463;
     margin: auto;
@@ -110,20 +111,238 @@ header a {
     padding: 2%;
 }
 
-.missions{
+.missions {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 8%;
 }
-.missions div p{
+
+.missions div p {
     color: white;
 }
-.values-desc{
+
+.values-desc {
     color: white;
     text-align: center;
     margin: 10% 0;
     font-size: 3vh;
     font-weight: bold;
+}
+
+.team {
+    height: 150vh;
+    position: relative;
+    background: white 0% 0% no-repeat padding-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-heading {
+    width: 10em;
+    color: white;
+    background-color: #354463;
+    margin: auto;
+    font-size: 1em;
+    text-align: center;
+    padding: 2%;
+}
+
+.teams-desc {
+    color: #354463;
+    text-align: center;
+    margin: 10% 0;
+    font-size: 3vh;
+    font-weight: bold;
+}
+
+.teams {
+    padding-left: 2vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 8%;
+    justify-items: center;
+}
+
+.team-name {
+    color: white;
+    background-color: #354463;
+    text-align: center;
+    width: 45.5%;
+    position: relative;
+    top: -4%;
+    padding: 8%;
+}
+
+.impact-heading {
+    width: 10em;
+    background-color: white;
+    color: #354463;
+    margin: auto;
+    font-size: 1em;
+    text-align: center;
+    padding: 2%;
+}
+
+.impact {
+    height: 120vh;
+    background: transparent url(/assets/assets/about-us/ian-macharia-509884-unsplash/ian-macharia-509884-unsplash@2x.png) 0% 0% no-repeat padding-box;
+    background-color: #354463;
+    padding: 10%;
+}
+
+.impact-desc {
+    color: white;
+    text-align: justify;
+    margin: 10% 0;
+    font-size: 4.4vh;
+    font-weight: bold;
+}
+
+.impacts {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.impacts div {
+    color: white;
+    text-align: center;
+    font: normal normal normal 8vh/8vh Flood Std;
+}
+
+.impacts div p {
+    color: white;
+    font: normal normal bold 3vh/3vh Helvetica;
+}
+
+.future {
+    height: 140vh;
+    background-color: #354463;
+    padding: 10%;
+}
+
+.future-content {
+    height: 70%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.slogan {
+    height: 30%;
+    color: white;
+    text-align: center;
+    font: normal normal normal 7vh/7vh Flood Std;
+    padding: 10% 20%;
+    padding-bottom: 0%;
+}
+
+.future-image {
+    height: 30%;
+    grid-column: 1/3;
+}
+
+.future-desc {
+    grid-column: 1/3;
+    padding: 10%;
+}
+
+#f1 {
+    text-align: center;
+    font: normal normal bold 4vh/4vh Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+}
+
+#f2 {
+    text-align: center;
+    margin: 7%;
+    font: normal normal normal 2.5vh/2.5vh Helvetica;
+}
+
+.read {
+    width: 50%;
+}
+
+.read1 {
+    display: flex;
+    justify-content: center;
+}
+
+.issue-year {
+    position: relative;
+    width: 10%;
+    top: 5vh;
+    /* Move the top of the inner div to the vertical center of the outer div */
+    left: 50%;
+    /* Move the left of the inner div to the horizontal center of the outer div */
+    transform: translate(-50%, -50%);
+    color: #354463;
+    font-weight: normal;
+    font-size: 3vh;
+    padding: auto;
+    margin: 0;
+    background: white 0% 0% no-repeat padding-box;
+    padding: 2% 10%;
+    opacity: 1;
+}
+
+.subscribe {
+    height: 33vh;
+    background: #C1F7D5 0% 0% no-repeat padding-box;
+    padding: 10%;
+}
+
+#subscribe {
+    text-align: left;
+    font: normal normal bold 5vh/5vh Helvetica;
+    letter-spacing: 0px;
+    color: #354463;
+}
+
+.emails {
+    margin-top: 10%;
+}
+
+.emails input {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    height: 4.5vh;
+    width: 60%;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.emails button {
+    width: 35%;
+    height: 4.5vh;
+    background: #354463 0% 0% no-repeat padding-box;
+    border-radius: 100px;
+    color: white;
+    border: none;
+    font-size: 3vh;
+}
+
+footer {
+    margin: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10vh;
+}
+
+#stop-change {
+    text-align: center;
+    font: normal normal normal 10vh/10vh Flood Std;
+    letter-spacing: 0px;
+    color: #354463;
+    grid-column: 2/3;
+    padding-right: 5%;
+}
+
+footer div ul {
+    list-style-type: none;
 }
 
 /* media query tablets */
@@ -158,14 +377,17 @@ header a {
         height: 8vh;
         width: 13.5vw;
     }
-    .stop-climate-change{
+
+    .stop-climate-change {
         height: 50%;
     }
+
     .hashtag img {
         height: 50%;
         width: 25%;
         margin: 10%;
     }
+
     .content-heading {
         position: absolute;
         position: absolute;
@@ -183,13 +405,64 @@ header a {
         padding: 2% 10%;
         opacity: 1;
     }
-    .missions{
+
+    .missions {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 8%;
     }
-    .mission{
-        height: 90vh;
+
+    .mission {
+        height: 130vh;
+    }
+
+    .team {
+        height: 200vh;
+    }
+
+    .our-team {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .team-heading {
+        grid-column: 1/3;
+        position: relative;
+        left: -30%;
+        top: 7vh;
+    }
+
+    .teams-desc {
+        font-size: 5vh;
+        width: 95vw;
+        grid-column: 1/3;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .teams div img {
+        width: 30vw;
+        height: auto;
+    }
+
+    .team-name {
+        position: relative;
+        width: 80%;
+        left: 10%;
+    }
+
+    .impact {
+        background-size: cover;
+        height: 85vh;
+    }
+
+    .impacts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
 }
@@ -226,37 +499,44 @@ header a {
         height: 9vh;
         width: 9vw;
     }
+
     .stop-climate-change {
         height: auto;
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding-left:5%;
+        padding-left: 5%;
     }
-    .hashtag{
+
+    .hashtag {
         width: 50%;
     }
-    .hashtag img{
+
+    .hashtag img {
         width: 80%;
         height: auto;
-        
+
     }
-    .content{
+
+    .content {
         width: 50%;
         position: relative;
         top: 30vh;
         z-index: 1;
     }
-    .missions{
+
+    .missions {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 8%;
     }
-    .mission{
-        height: 78vh;
+
+    .mission {
+        height: 90vh;
     }
-    .values-heading{
-        width:10em;
+
+    .values-heading {
+        width: 10em;
         background-color: white;
         color: #354463;
         margin: 0 0;
@@ -264,4 +544,91 @@ header a {
         text-align: center;
         padding: 2%;
     }
+
+    .team {
+        height: 170vh;
+    }
+
+    .teams {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .teams div img {
+        width: 20vw;
+        height: auto;
+    }
+
+    .impacts {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .impacts div p{
+        margin: 2vh;
+    }
+    .impact-desc{
+        text-align: center;
+        font-size: 7vh;
+    }
+    .future{
+        height: 170vh;
+    }
+    .future-content{
+        width: 69vh;
+    }
+    .future-image img{
+        height: 50vh;
+        width: auto;
+    }
+    .issue-year{
+        top:10vh;
+        left: 15vw;
+    }
+    .subscribe{
+        height: 5vh;
+        padding: 5%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .emails{
+        display: flex;
+        flex-direction: row;
+        margin-top: 1%;
+    }
+    .emails input{
+        margin-right: 2%;
+        font-size: 2vh;
+    }
+    .emails button{
+        font-size: 2vh;
+        color: #C1F7D5;
+    }
+    footer{
+        margin: 5%;
+        display: inline-block
+    }
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    l1{
+        padding: 0 2%;
+    }
+    #stop-change{
+        font-size: 4vh;
+        padding-left: 10%;
+        line-height: 4vh;
+    }
+    #l2, #learn{
+        margin-left: 4%;
+    }
+    
+    footer a{
+        text-decoration: none;
+    }
+    #b5{
+        border-bottom: 4px solid red;
+    }
+    
 }
