@@ -5,6 +5,11 @@
     opacity: 1;
 }
 
+.display1 {
+    display: none;
+    
+}
+
 /* designing header */
 header {
     display: grid;
@@ -926,6 +931,22 @@ h1 {
         height: 170vh;
     }
 
+    .team-heading {
+        position: relative;
+        left: -35%;
+    }
+
+    #div-para {
+        width: 70%;
+        text-align: left;
+        padding-left: 25%;
+    }
+
+    .teams-desc {
+        width: 80vw;
+        padding: 0 7.5%;
+    }
+
     .teams {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -933,6 +954,10 @@ h1 {
     .teams div img {
         width: 20vw;
         height: auto;
+    }
+
+    .impact {
+        height: 60vh;
     }
 
     .impacts {
@@ -950,12 +975,46 @@ h1 {
         font-size: 7vh;
     }
 
+
     .future {
-        height: 170vh;
+        height: 130vh;
+        margin-top: 0;
     }
 
+    .slogan {
+        padding: 0;
+        text-align: left;
+        font-style: italic;
+        width: 70%;
+        height: 25vh;
+    }
+#next img{
+width: 3vw;;
+}
+#next{
+    width: 3vw;
+    height: 4vh;
+    padding: 1%;
+    background-color: #c1f7d5;
+    border-radius: 100%;
+}
+#next-button{
+    display: flex;
+    justify-content: space-between;
+}
+
+  .about-scroll{
+    display: flex;
+   justify-content: space-between;
+    width: 70vw;
+  }
+  .display1{
+    display: block;
+  }
+
     .future-content {
-        width: 69vh;
+        width: 58.5vh;
+        height: 100vh;
     }
 
     .future-image img {
@@ -964,9 +1023,10 @@ h1 {
     }
 
     .issue-year {
-        top: 10vh;
-        left: 15vw;
+        top: 5vh;
+        left: 10vw;
     }
+
 
     .subscribe {
         height: 5vh;
@@ -1005,10 +1065,15 @@ h1 {
         justify-content: space-around;
     }
 
-    l1 {
+    #l1 {
         padding: 0 2%;
+        width: 15vw;
+        line-height: 3vh;
     }
+.con{
 
+    border-bottom: 2px solid #354463;
+}
     #stop-change {
         font-size: 4vh;
         padding-left: 10%;
@@ -1018,6 +1083,8 @@ h1 {
     #l2,
     #learn {
         margin-left: 4%;
+        width: 15vw;
+        line-height: 3vh;
     }
 
     footer a {
@@ -1055,76 +1122,109 @@ h1 {
         height: 40vh;
         padding-bottom: 0;
     }
-    .action2{
+
+    .action2 {
         width: 10vw;
         height: 5vh;
         font-size: 2vh;
         padding: 1.5% 0 0 0;
     }
 
-    .take-action{
+    .take-action {
         height: 8vh;
         padding-bottom: 9%;
     }
 
-    .action-names{
+    .action-names {
         display: flex;
         flex-direction: row;
     }
-    .desktop{
+
+    .desktop {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10vh;
-        
+
     }
-    #issue-img{
-        width: 20vw;
-        padding: 0;
-        margin-right: 23%;
-    }
-    .future-image img{
+
+
+
+    .future-image img {
         width: 30vw;
         height: auto;
     }
-    #test{
+
+    #test {
         height: 40vh;
     }
-    .future-desc{
+
+    .future-desc {
 
         text-align: left;
         height: 80vh;
         width: 20vw;
     }
-    #achievements{
+
+    #achievements {
         height: 170vh;
     }
 
-    #hunger{
+    #hunger {
         padding: 10%;
+        width: 79.3vw;
     }
-    .stories{
+
+
+    .stories {
         height: 80vh;
         display: flex;
         flex-direction: row-reverse;
     }
-    .story-desc{
+
+    .story-desc {
         width: 30vw;
         position: relative;
         top: 16vh;
     }
-    #read-more{
+
+    #read-more {
         position: relative;
         top: 20vh;
         left: -5vw;
     }
-    #read-more button{
+
+    #read-more button {
         width: 35%;
     }
-    .talk{
+
+    .talk {
         height: 160vh;
     }
-    #talk-head{
+
+    #talk-head {
         padding-top: 0;
+    }
+
+    #about-content {
+        height: 30vh;
+        width: auto;
+        text-align: left;
+        position: relative;
+        top: 30%;
+    }
+
+    #about-image {
+        width: 100%;
+    }
+
+    #about-climate {
+        height: 50vh;
+    }
+
+    .values-desc {
+        text-align: left;
+        font-size: 5vh;
+        margin: 5% 0;
     }
 
 }
